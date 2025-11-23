@@ -26,10 +26,10 @@ jobs:
           
         - name: Build Docker image
           run: |
-            docker build -t $ {{ secrets.ECR_REPO }}:latest .
+            docker build -t ${{ secrets.ECR_REPO }}:latest .
         - name: Push Docker image to ECR
           run: |
-            docker push $ {{ secrets.ECR_REPO }}:latest
+            docker push ${{ secrets.ECR_REPO }}:latest
 
     deploy:
         runs-on: ubuntu-latest
