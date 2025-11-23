@@ -6,7 +6,7 @@ This project simulates a real-world DevOps scenario where frequent updates to th
 
 ---
 
-## ** Project Overview**
+## **Project Overview**
 
 You are a DevOps Engineer at **Brightcode Solutions**. Developers push updates to the `main` branch, but manual deployments are slow and inconsistent.
 
@@ -23,7 +23,7 @@ This pipeline ensures consistent deployments, faster iteration, and eliminates m
 
 ---
 
-## ** Technologies Used**
+## **Technologies Used**
 
 - **Node.js (LTS)**
 - **Docker & Docker Compose**
@@ -35,7 +35,7 @@ This pipeline ensures consistent deployments, faster iteration, and eliminates m
 
 ---
 
-## ** Repository Setup**
+## **Repository Setup**
 
 ### **Step 1: Clone or Initialize Repo**
 
@@ -279,3 +279,4 @@ You should see the running app.
 
 Inspired by a Coursera guided project.
 Rewritten for clarity, maintainability, and real-world use.
+
